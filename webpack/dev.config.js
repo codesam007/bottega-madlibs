@@ -88,7 +88,10 @@ module.exports = webpackMerge(webpackCommon, {
       warnings: true,
       errors: true
     },
-    proxy: proxyRules
+    proxy: proxyRules,
+  //***!!!VERY IMPORTANT!REMEMBER TO PUT THIS IN THE PROJECTS WHEN NEEDED!!!***//
+    allowedHosts:env.devServer.allowedHosts||[]
+  //***!!!VERY IMPORTANT!REMEMBER TO PUT THIS IN THE PROJECTS WHEN NEEDED!!!***//
   }
 
 });
