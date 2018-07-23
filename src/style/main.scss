@@ -92,7 +92,6 @@
     
     button{
         justify-self: center;
-        transform: translateY(50%);
         height: 50px;
         width: 300px;
         border-radius: 4px;
@@ -105,10 +104,12 @@
     
     &_generate{
         background-color: #00cb79;
+        transform: translateY(-300px);
     }
     
     &_clear{
         background-color: #45b0e5;
+        transform: translateY(50%);
     }
     
     &_content{
@@ -176,7 +177,7 @@
         
         &:focus{
             outline: none;
-            border-bottom: px solid rgb(0, 255, 247);
+            border-bottom: 1px solid rgb(0, 255, 247);
         }
     }
     &_number{
