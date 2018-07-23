@@ -77,6 +77,31 @@
         justify-items: center;
         align-items: center;
     }
+    
+    button:focus{
+        outline: none;
+    }
+    
+    button{
+        justify-self: center;
+        height: 50px;
+        width: 300px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    &_generate{
+        background-color: #00cb79;
+    }
+    
+    &_clear{
+        background-color: #45b0e5;
+    }
+    
 }
 
 .input{
