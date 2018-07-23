@@ -14,10 +14,8 @@ class Home extends Component {
   }
 }
 
-//things I need to fix
-//placeholder
-//gray and green number labels
-//content labels
+//things we need to fix:
+
 //generate btn space/card-height
 
 export default Home;
